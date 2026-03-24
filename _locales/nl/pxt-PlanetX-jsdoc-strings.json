@@ -1,0 +1,89 @@
+{
+  "PlanetX_Display": "Functies voor PlanetX‑sensoren van ELECFREAKS Co.,Ltd.",
+  "PlanetX_Display.NeoPixelMode": "Verschillende modi voor RGB‑ of RGB+W‑NeoPixelstrips",
+
+  "PlanetX_Display.Strip.clear": "Schakel alle LED’s uit.\nJe moet ``show`` aanroepen om de wijzigingen zichtbaar te maken.",
+  "PlanetX_Display.Strip.range": "Maak een bereik van LED’s.",
+  "PlanetX_Display.Strip.range|param|length": "aantal LED’s in het bereik, bv.: 4",
+  "PlanetX_Display.Strip.range|param|start": "positie in de LED‑strip waar het bereik start",
+
+  "PlanetX_Display.Strip.rotate": "Roteer LED’s vooruit.\nJe moet ``show`` aanroepen om de wijzigingen zichtbaar te maken.",
+  "PlanetX_Display.Strip.rotate|param|offset": "aantal pixels om vooruit te roteren, bv.: 1",
+
+  "PlanetX_Display.Strip.setBrightness": "Stel de helderheid van de strip in. Dit geldt alleen voor toekomstige acties.",
+  "PlanetX_Display.Strip.setBrightness|param|brightness": "helderheid tussen 0–255, bv.: 255",
+
+  "PlanetX_Display.Strip.setPin": "Stel de pin in waarop de NeoPixel is aangesloten, standaard P0.",
+
+  "PlanetX_Display.Strip.setPixelColor": "Stel een LED in op een bepaalde kleur (bereik 0–255 voor r, g, b).\nJe moet ``show`` aanroepen om de wijzigingen zichtbaar te maken.",
+  "PlanetX_Display.Strip.setPixelColor|param|pixeloffset": "positie van de NeoPixel in de strip",
+  "PlanetX_Display.Strip.setPixelColor|param|rgb": "RGB‑kleur van de LED",
+
+  "PlanetX_Display.Strip.shift": "Schuif LED’s vooruit en vul met nullen.\nJe moet ``show`` aanroepen om de wijzigingen zichtbaar te maken.",
+  "PlanetX_Display.Strip.shift|param|offset": "aantal pixels om vooruit te schuiven, bv.: 1",
+
+  "PlanetX_Display.Strip.show": "Stuur alle wijzigingen naar de strip.",
+  "PlanetX_Display.Strip.showColor": "Toon alle LED’s in een bepaalde kleur (bereik 0–255 voor r, g, b).",
+  "PlanetX_Display.Strip.showColor|param|rgb": "RGB‑kleur van de LED",
+
+  "PlanetX_Display.Strip.showRainbow": "Toont een regenboogpatroon op alle LED’s.",
+  "PlanetX_Display.Strip.showRainbow|param|endHue": "eind‑tintwaarde voor de regenboog, bv.: 360",
+  "PlanetX_Display.Strip.showRainbow|param|startHue": "start‑tintwaarde voor de regenboog, bv.: 1",
+
+  "PlanetX_Display.TM1637LEDs._dat": "stel gegevens in voor TM1637, met opgegeven bit",
+  "PlanetX_Display.TM1637LEDs._start": "Start",
+  "PlanetX_Display.TM1637LEDs._stop": "Stop",
+  "PlanetX_Display.TM1637LEDs._write_byte": "stuur een byte naar de 2‑draadinterface",
+  "PlanetX_Display.TM1637LEDs._write_data_cmd": "stuur commando 1",
+  "PlanetX_Display.TM1637LEDs._write_dsp_ctrl": "stuur commando 3",
+
+  "PlanetX_Display.TM1637LEDs.clear": "wis LED.",
+  "PlanetX_Display.TM1637LEDs.init": "initialiseer TM1637",
+  "PlanetX_Display.TM1637LEDs.showDP": "toon of verberg het decimaalpunt.",
+  "PlanetX_Display.TM1637LEDs.showDP|param|bit": "positie, bv.: 1",
+  "PlanetX_Display.TM1637LEDs.showDP|param|show": "toon/verberg dp, bv.: true",
+
+  "PlanetX_Display.TM1637LEDs.showNumber": "Toon een 4‑cijferig nummer op het display",
+  "PlanetX_Display.TM1637LEDs.showbit": "Toon één cijfer van 0 tot 9 op een bepaalde positie van de Grove 4‑Digit Display",
+
+  "PlanetX_Display.colors": "Geeft de RGB‑waarde van een bekende kleur",
+  "PlanetX_Display.create": "Maak een nieuwe NeoPixel‑driver voor `numleds` LED’s.",
+  "PlanetX_Display.create|param|numleds": "aantal LED’s in de strip, bv.: 24, 30, 60, 64",
+
+  "PlanetX_Display.hsl": "Zet een tint‑verzadiging‑helderheidwaarde om naar een RGB‑kleur",
+  "PlanetX_Display.hsl|param|h": "tint van 0 tot 360",
+  "PlanetX_Display.hsl|param|l": "helderheid van 0 tot 99",
+  "PlanetX_Display.hsl|param|s": "verzadiging van 0 tot 99",
+
+  "PlanetX_Display.ledBrightness": "schakel LED",
+  "PlanetX_Display.rgb": "Zet rood, groen en blauw om naar een RGB‑kleur",
+  "PlanetX_Display.rgb|param|blue": "waarde van het blauwe kanaal tussen 0 en 255, bv.: 255",
+  "PlanetX_Display.rgb|param|green": "waarde van het groene kanaal tussen 0 en 255, bv.: 255",
+  "PlanetX_Display.rgb|param|red": "waarde van het rode kanaal tussen 0 en 255, bv.: 255",
+
+  "PlanetX_Display.tm1637Create": "Maak een nieuwe driver voor de Grove 4‑Digit Display",
+
+  "PlanetX_IOT.breakMQTT": "bericht verzenden",
+  "PlanetX_IOT.brokerState": "Controleer of de ESP8266 succesvol verbonden is met de MQTT‑broker",
+  "PlanetX_IOT.connectSmartiot": "Verbind met SmartIot",
+  "PlanetX_IOT.connectMQTT": "Verbind met MQTT‑broker",
+  "PlanetX_IOT.connectThingSpeak": "Verbind met ThingSpeak",
+  "PlanetX_IOT.connectWifi": "verbind met Wifi‑router",
+  "PlanetX_IOT.disconnectSmartiot": "verbreek verbinding met SmartIot",
+  "PlanetX_IOT.initWIFI": "Initialiseer wifi‑module",
+  "PlanetX_IOT.smartiotState": "Controleer of de ESP8266 succesvol verbonden is met SmartIot",
+  "PlanetX_IOT.postIFTTT": "stuur IFTTT‑verzoek",
+  "PlanetX_IOT.sendmesMQTT": "bericht verzenden",
+  "PlanetX_IOT.setData": "Verbind met ThingSpeak en stel gegevens in.",
+  "PlanetX_IOT.setIFTTT": "stel IFTTT in",
+  "PlanetX_IOT.setMQTT": "Stel MQTT‑client in",
+  "PlanetX_IOT.subMQTT": "abonneren",
+  "PlanetX_IOT.thingSpeakState": "Controleer of de ESP8266 succesvol verbonden is met ThingSpeak",
+  "PlanetX_IOT.unsubMQTT": "afmelden",
+  "PlanetX_IOT.uploadData": "upload gegevens. Er wordt niets geüpload als de verbinding met Wifi of ThingSpeak mislukt.",
+  "PlanetX_IOT.uploadSmartiot": "upload gegevens naar SmartIot",
+  "PlanetX_IOT.wifiState": "Controleer of de ESP8266 succesvol verbonden is met Wifi",
+
+  "PlanetX_Basic.TrackBit_get_offset": "Geeft de positie‑offset. Het bereik is van −3000 tot 3000.",
+  "PlanetX_Basic.TrackbitgetGray": "Geef de grijswaarde. Het bereik is van 0 tot 255."
+}
